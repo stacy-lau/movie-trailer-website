@@ -1,6 +1,8 @@
+""" fresh_tomatoes.py and media.py need to be included within the same directory as this .py file in order for the code to work"""
 import fresh_tomatoes
 import media
 
+""" Six instances of a movie are listed below."""
 lion = media.Movie("Lion",
                    "A five-year-old Indian boy gets lost on the streets of Calcutta, thousands of kilometers from home. He survives many challenges before being adopted by a couple in Australia. 25 years later, he sets out to find his lost family.",
                    "https://upload.wikimedia.org/wikipedia/en/f/f0/Lion_%282016_film%29.png",
@@ -32,5 +34,9 @@ guardians = media.Movie("Guardians of the Galaxy Vol. 2",
                         "https://upload.wikimedia.org/wikipedia/en/9/95/GotG_Vol2_poster.jpg",
                         "https://www.youtube.com/watch?v=pr7tDrwQ3t8")
 
+""" Movie objects stored in a list data structure."""
 movies = [lion, moonlight, fences, hidden_figures, lala_land, guardians]
+
+""" Function uses list of movies to build HTML file to display website."""
 fresh_tomatoes.open_movies_page(movies)
+
