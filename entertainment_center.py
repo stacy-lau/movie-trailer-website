@@ -39,4 +39,3 @@ movies = [lion, moonlight, fences, hidden_figures, lala_land, guardians]
 
 """ Function uses list of movies to build HTML file to display website."""
 fresh_tomatoes.open_movies_page(movies)
-
