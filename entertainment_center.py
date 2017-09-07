@@ -51,10 +51,16 @@ guardians = media.Movie("Guardians of the Galaxy Vol. 2",
                         "https://upload.wikimedia.org/wikipedia/en/9/95/GotG_Vol2_poster.jpg",
                         "https://www.youtube.com/watch?v=pr7tDrwQ3t8")
 
-""" NOTE: I realize that the poster_image URLs are longer than 80 characters long but I didn't want to break the URLs."""
+""" NOTE: I realize that the poster_image URLs are longer than 80 \
+characters long but I didn't want to break the URLs."""
 
 """ Movie objects stored in a list data structure."""
 movies = [lion, moonlight, fences, hidden_figures, lala_land, guardians]
 
 """ Function uses list of movies to build HTML file to display website."""
 fresh_tomatoes.open_movies_page(movies)
+
+""" All movie storylines quoted from respective IMDb entries \
+for each film. \
+All poster images retrieved from respective Wikipedia entries \
+for each film."""
