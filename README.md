@@ -11,3 +11,4 @@
 4. Open entertainment_center.py in IDLE.
 5. To run the program, go to the Run menu and select Run Module.
 6. A new browser window opens and contains the films shown in the instances and stored in the list data structure.
+7. Scroll over a movie image thumbnail and click on it. The movie trailer opens in a separate modal window.
